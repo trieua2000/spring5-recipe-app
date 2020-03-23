@@ -14,6 +14,6 @@ public class IngredientCommand {
     private Long id;
     private String description;
     private BigDecimal amount;
-    private UnitOfMeasureCommand unitOfMeasure;
+    private UnitOfMeasureCommand uom;
     // notes: how come we don't need Recipe variable here as the domain Notes contains it.
 }
